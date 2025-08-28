@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency-Service</title>
+    <!-- font awesome -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- daisy.css -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header>
+            <nav class="flex flex-col lg:flex-row   justify-between items-center w-11/12 gap-4  mx-auto">
+                
+                <div class="logo-part flex items-center gap-3">
+                    <img src="./images/assets/logo.png" alt="" srcset="" class="w-12">
+                    <h2 class="text-2xl font-bold">Emergency <br> Service</h2>
+                </div>
+
+                <div class="result-display-part flex items-center gap-3">
+                   
+                    <div class="heart bg-slate-300 py-1 px-2 rounded-full">
+                        <p class="flex gap-2 text-xl items-center">
+                            <span id="heart-counter" class="font-bold" id="">0</span>
+                            <span><img src="./images/assets/heart.png" alt="" srcset="" class="w-6"></span>
+                        </p>
+                    </div>
+
+                    <div class="coin bg-slate-300 py-1 px-2 rounded-full">
+                        <p class="flex gap-2 text-xl items-center">
+                            <span id="coin-counter" class="font-bold">100</span>
+                            <span><img src="./images/assets/coin.png" alt="" srcset="" class="w-6"></span>
+                        </p>
+                    </div>
+
+                    <div class="copy py-1 px-2 rounded-full bg-green-600 text-white">
+                        <p class="flex gap-2 text-xl items-center">
+                            <span id="copy-counter" class="font-bold">0</span>
+                            <span> Copy</span>
+                        </p>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    
+</body>
+</html>
